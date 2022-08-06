@@ -2,8 +2,8 @@ import { AdjustmentsIcon, ArchiveIcon, CashIcon, ClipboardCheckIcon, CubeIcon, D
 
 export default function Sidebar() {
   return (
-    <div className="fixed left-0 right-0 h-full w-12 flex flex-col items-center gap-6 bg-[#f7f7f7] shadow-lg">
-      <div className="mt-8 w-8 h-8 rounded-full bg-green-400 text-xs text-white font-semibold flex items-center justify-center">M</div>
+    <div className="fixed left-0 top-0 h-full w-12 flex flex-col items-center gap-6 bg-[#f7f7f7] shadow-lg">
+      <div className="mt-16 w-8 h-8 rounded-full bg-green-400 text-xs text-white font-semibold flex items-center justify-center">M</div>
       <div className="flex flex-col">
         <HomeIcon className="w-12 h-10 p-3" />
         <AdjustmentsIcon className="w-12 h-10 p-3" />

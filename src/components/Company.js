@@ -3,7 +3,7 @@ import Toggle from "./Company/Toggle";
 
 export default function Company() {
   return (
-    <div className="absolute bg-[#f7f7f7] left-20 top-20 w-72 rounded-md overflow-hidden shadow-lg">
+    <div className="absolute bg-[#f7f7f7] left-20 top-20 w-[20rem] rounded-md overflow-hidden shadow-lg">
       <CompanyHeader />
       <div className="m-5 flex flex-col gap-2">
         <div>
