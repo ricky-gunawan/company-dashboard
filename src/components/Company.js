@@ -1,9 +1,9 @@
 import CompanyHeader from "./Company/CompanyHeader";
 import Toggle from "./Company/Toggle";
 
-export default function Company() {
+export default function Company({ sidebar }) {
   return (
-    <div className="absolute bg-[#f7f7f7] left-20 top-20 w-[20rem] rounded-md overflow-hidden shadow-lg">
+    <div className={`absolute ${sidebar ? "translate-x-0" : ""} transition -translate-x-[19rem] lg:translate-x-0 bg-[#f7f7f7] left-12 top-20 lg:left-20 w-[16rem] lg:w-[20rem] rounded-md overflow-hidden shadow-lg`}>
       <CompanyHeader />
       <div className="m-5 flex flex-col gap-2">
         <div>
