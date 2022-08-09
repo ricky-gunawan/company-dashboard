@@ -2,7 +2,7 @@ import { AdjustmentsIcon, ArchiveIcon, CashIcon, ClipboardCheckIcon, CubeIcon, D
 
 export default function Sidebar({ sidebar }) {
   return (
-    <div className={`fixed ${sidebar ? "translate-x-0" : ""} transition -translate-x-[19rem] lg:translate-x-0 left-0 top-0 h-full w-12 flex flex-col items-center gap-6 bg-[#f7f7f7]/60 lg:bg-[#f7f7f7] shadow-lg`}>
+    <div className={`fixed ${sidebar ? "translate-x-0" : "-translate-x-[19rem]"} transition lg:translate-x-0 left-0 top-0 h-full w-12 flex flex-col items-center gap-6 bg-[#f7f7f7]/60 lg:bg-[#f7f7f7] shadow-lg`}>
       <div className="mt-24 w-8 h-8 rounded-full bg-green-400 text-xs text-white font-semibold flex items-center justify-center">M</div>
       <div className="flex flex-col">
         <HomeIcon className="w-12 h-10 p-3" />
